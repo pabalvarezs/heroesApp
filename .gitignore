@@ -46,4 +46,5 @@ testem.log
 Thumbs.db
 
 # asset de la app angular
-/src/asset
+# src/assets
+
