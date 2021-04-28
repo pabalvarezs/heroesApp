@@ -4,15 +4,19 @@ import { ErrorPageComponent } from './shared/error-page/error-page.component';
 
 const routes : Routes = [
 
-{
-    path : '404',
-    component : ErrorPageComponent,
-},
-{
-    path : '**',
-    // component : ErrorPageComponent,
-    redirectTo : '404'
-},
+  {
+      path : 'auth',
+      loadChildren : () => import('./auth/auth.module').then( m => m.AuthModule )
+  },
+  {
+      path : '404',
+      component : ErrorPageComponent,
+  },
+  {
+      path : '**',
+      // component : ErrorPageComponent,
+      redirectTo : '404'
+  },
 
 ]
 
