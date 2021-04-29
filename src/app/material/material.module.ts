@@ -4,9 +4,10 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatToolbarModule} from '@angular/material/toolbar';
-
 
 
 
@@ -16,8 +17,10 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MatCardModule,
     MatIconModule,
     MatListModule,
+    MatGridListModule,
+    MatProgressSpinnerModule,
     MatSidenavModule,
-    MatToolbarModule
+    MatToolbarModule,
   ]
 })
 export class MaterialModule { }
