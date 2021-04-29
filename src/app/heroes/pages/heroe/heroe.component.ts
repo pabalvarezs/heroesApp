@@ -12,6 +12,10 @@ import { switchMap, tap } from "rxjs/operators";
       width : 100%;
       border-radius: 10px;
     }
+    .divHeroe{
+      padding-left : 7vw;
+      padding-right : 7vw;
+    }
   
   `
   ]
